@@ -1,16 +1,50 @@
-### Hi there 👋
+# [![GitHub Header](https://raw.githubusercontent.com/leemcd56/leemcd56/main/assets/banner.png)](https://nathanael.rocks/)
 
-<!--
-**leemcd56/leemcd56** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h4>
 
-Here are some ideas to get you started:
+```php
+<?php
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+namespace Earth;
+
+class Myself implements Person {
+    /**
+     * Want to know where I work?
+     *
+     * @return array
+     */
+    public getCurrentWorkplace(): array {
+        return [
+            'workplace' => [
+                [
+                    'company' => 'Boone Software, LLC',
+                    'position' => 'Partner',
+                ],
+
+                [
+                    'company' => 'Vendorin',
+                    'position' => 'Senior Systems Engineer',
+                ],
+            ],
+        ];
+    }
+
+    /**
+     * These are the skills I use most often.
+     *
+     * @return array
+     */
+    public getSkills(): array {
+        return [
+            'JavaScript',
+            'Laravel',
+            'PHP',
+            'PostgreSQL',
+            'TypeScript',
+            'Vue',
+        ];
+    }
+}
+```
+
+</h4>
