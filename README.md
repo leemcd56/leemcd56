@@ -26,7 +26,7 @@ class Myself implements Human {
             'workplace' => [
                 [
                     'company' => 'Boone Software, LLC',
-                    'position' => 'Partner',
+                    'position' => 'Director of Business Services',
                 ],
 
                 [
