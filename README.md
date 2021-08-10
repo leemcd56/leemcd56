@@ -15,13 +15,15 @@ namespace Earth;
 
 use Entities\Mammal\Human;
 
-class Myself implements Human {
+class Myself implements Human
+{
     /**
      * Want to know where I work?
      *
      * @return array
      */
-    public getCurrentWorkplace(): array {
+    public getCurrentWorkplace(): array
+    {
         return [
             'workplace' => [
                 [
@@ -42,7 +44,8 @@ class Myself implements Human {
      *
      * @return array
      */
-    public getSkills(): array {
+    public getSkills(): array
+    {
         return [
             'JavaScript',
             'Laravel',
