@@ -49,6 +49,7 @@ class Myself implements Human
         return [
             'JavaScript',
             'Laravel',
+            'MySQL',
             'PHP',
             'PostgreSQL',
             'TypeScript',
