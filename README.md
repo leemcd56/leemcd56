@@ -25,13 +25,13 @@ class Myself implements Human {
         return [
             'workplace' => [
                 [
-                    'company' => 'Boone Software, LLC',
+                    'company' => 'Boone Software',
                     'position' => 'Partner',
                 ],
 
                 [
-                    'company' => 'Vendorin',
-                    'position' => 'Senior Systems Developer',
+                    'company' => 'TopDevz',
+                    'position' => 'Senior Software Engineer',
                 ],
             ],
         ];
