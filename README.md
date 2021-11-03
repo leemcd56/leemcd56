@@ -27,8 +27,8 @@ class Myself implements Human
         return [
             'workplace' => [
                 [
-                    'company' => 'Boone Software',
-                    'position' => 'Partner',
+                    'company' => 'Boone Studios',
+                    'position' => 'Director of Business Services',
                 ],
 
                 [
