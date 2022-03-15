@@ -32,8 +32,8 @@ class Myself implements Human
                 ],
 
                 [
-                    'company' => 'TopDevz',
-                    'position' => 'Senior Software Engineer',
+                    'company' => 'Sticky.io',
+                    'position' => 'Software Engineer',
                 ],
             ],
         ];
