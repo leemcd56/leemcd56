@@ -22,7 +22,7 @@ class Myself implements Human
      *
      * @return array
      */
-    public getCurrentWorkplace(): array
+    public function getCurrentWorkplace(): array
     {
         return [
             'workplace' => [
@@ -39,7 +39,7 @@ class Myself implements Human
      *
      * @return array
      */
-    public getSkills(): array
+    public function getSkills(): array
     {
         return [
             'JavaScript',
