@@ -18,6 +18,13 @@ use Entities\Mammal\Human;
 class Myself implements Human
 {
     /**
+     * The birthdate of this entity.
+     *
+     * @var int
+     */
+    protected int $birthdate = 667115760;
+
+    /**
      * Want to know where I work?
      *
      * @return array
